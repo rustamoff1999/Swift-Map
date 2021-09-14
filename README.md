@@ -8,7 +8,7 @@ The _map()_ method of **_optionals_** allows you to transform the optional if it
 You could use the _map()_ method to transform it **_safely_**, without having to check and unwrap it – if it were **_nil_**, the _map()_ call would do nothing.
 ## About My Implementation
 Here is my own **_Swift map() Function Implementation_**, that can be used with both **_Collection Type_** and **_Optional_**.  
-In this project I used _extensions_ for _Collection Type_ and _Optional Type_ for creating _myMap()_ function in there, which is the analogue of "official" _map()_ function. _myMap()_ is declared as _Generic_. 
+In this project I used _extensions_ for _Collection Type_ and _Optional Type_ for creating _myMap()_ function in there, which is my own implementation of "official" _map()_ function. _myMap()_ is declared as _Generic_.  
 You can see some examples in my code if something remains unclear to you.
 ## References
 * [Using the Map Function With Collections](https://learnappmaking.com/map-reduce-filter-swift-programming/)
