@@ -1,9 +1,9 @@
 # Swift Map(_ :) Function Implementing
 
 ## Introduction
-### Using the _map(_:)_ Function with Collections
+### Using the _map(_ :)_ Function with Collections
 The _map(_:)_ function loops over every item in a **_collection_**, and applies an operation to each element in the collection. It returns a collection of resulting items, to which the operation was applied.
-### Using the _map(_:)_ Function with Optionals
+### Using the _map(_ :)_ Function with Optionals
 The _map(_:)_ method of **_optionals_** allows you to transform the optional if it has a value, or do nothing if it is empty. This makes for shorter and more expressive code than doing a regular unwrap, and doesn’t require you to change your data type.  
 You could use the _map(_:)_ method to transform it **_safely_**, without having to check and unwrap it – if it were **_nil_**, the _map(_:)_ call would do nothing.
 ## About My Implementation
